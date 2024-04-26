@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4C0476D2BDA84780011E0A0 /* MTVibrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C047692BDA84780011E0A0 /* MTVibrant.swift */; };
+		A4C0476E2BDA84780011E0A0 /* MTPale.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4C0476A2BDA84780011E0A0 /* MTPale.xib */; };
+		A4C0476F2BDA84780011E0A0 /* MTVibrant.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4C0476B2BDA84780011E0A0 /* MTVibrant.xib */; };
+		A4C047702BDA84780011E0A0 /* MTPale.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C0476C2BDA84780011E0A0 /* MTPale.swift */; };
+		A4C047722BDA84930011E0A0 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C047712BDA84930011E0A0 /* Extension.swift */; };
+		A4C047762BDA87260011E0A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4C047752BDA87260011E0A0 /* Assets.xcassets */; };
+		A4FE67FF2BDA1EAF008C27E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FE67FE2BDA1EAF008C27E5 /* AppDelegate.swift */; };
+		A4FE68012BDA1EAF008C27E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FE68002BDA1EAF008C27E5 /* SceneDelegate.swift */; };
+		A4FE68032BDA1EAF008C27E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FE68022BDA1EAF008C27E5 /* ViewController.swift */; };
+		A4FE68062BDA1EAF008C27E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4FE68042BDA1EAF008C27E5 /* Main.storyboard */; };
+		A4FE680B2BDA1EB0008C27E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4FE68092BDA1EB0008C27E5 /* LaunchScreen.storyboard */; };
+		A4FE68172BDA1EDC008C27E5 /* CardOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FE68142BDA1EDC008C27E5 /* CardOverlayView.swift */; };
+		A4FE68182BDA1EDC008C27E5 /* CardScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FE68152BDA1EDC008C27E5 /* CardScannerController.swift */; };
+		A4FE68222BDA1EF9008C27E5 /* AnnotationLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FE681A2BDA1EF9008C27E5 /* AnnotationLayer.swift */; };
+		A4FE68232BDA1EF9008C27E5 /* StringTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FE681B2BDA1EF9008C27E5 /* StringTracker.swift */; };
+		A4FE68242BDA1EF9008C27E5 /* ScannerOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FE681C2BDA1EF9008C27E5 /* ScannerOverlayView.swift */; };
+		A4FE68252BDA1EF9008C27E5 /* String+Classifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FE681D2BDA1EF9008C27E5 /* String+Classifications.swift */; };
+		A4FE68262BDA1EF9008C27E5 /* DeviceFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FE681E2BDA1EF9008C27E5 /* DeviceFeatures.swift */; };
+		A4FE68272BDA1EF9008C27E5 /* VisionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FE681F2BDA1EF9008C27E5 /* VisionController.swift */; };
+		A4FE68282BDA1EF9008C27E5 /* AVCaptureVideoOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FE68202BDA1EF9008C27E5 /* AVCaptureVideoOrientation.swift */; };
+		A4FE68292BDA1EF9008C27E5 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FE68212BDA1EF9008C27E5 /* PreviewView.swift */; };
+		A4FE682F2BDA1F36008C27E5 /* CardValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FE682B2BDA1F36008C27E5 /* CardValidator.swift */; };
+		A4FE68302BDA1F36008C27E5 /* CardGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FE682C2BDA1F36008C27E5 /* CardGroup.swift */; };
+		A4FE68312BDA1F36008C27E5 /* CardValidationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FE682D2BDA1F36008C27E5 /* CardValidationType.swift */; };
+		A4FE68322BDA1F36008C27E5 /* CardValidationType+Rules.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FE682E2BDA1F36008C27E5 /* CardValidationType+Rules.swift */; };
+		B1E7A1302BDAD4780009185F /* CardDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E7A12F2BDAD4780009185F /* CardDetailsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A4C047692BDA84780011E0A0 /* MTVibrant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTVibrant.swift; sourceTree = "<group>"; };
+		A4C0476A2BDA84780011E0A0 /* MTPale.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTPale.xib; sourceTree = "<group>"; };
+		A4C0476B2BDA84780011E0A0 /* MTVibrant.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTVibrant.xib; sourceTree = "<group>"; };
+		A4C0476C2BDA84780011E0A0 /* MTPale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTPale.swift; sourceTree = "<group>"; };
+		A4C047712BDA84930011E0A0 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		A4C047752BDA87260011E0A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4FE67FB2BDA1EAF008C27E5 /* Scan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4FE67FE2BDA1EAF008C27E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4FE68002BDA1EAF008C27E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A4FE68022BDA1EAF008C27E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4FE68052BDA1EAF008C27E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4FE680A2BDA1EB0008C27E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4FE680C2BDA1EB0008C27E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4FE68142BDA1EDC008C27E5 /* CardOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardOverlayView.swift; sourceTree = "<group>"; };
+		A4FE68152BDA1EDC008C27E5 /* CardScannerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardScannerController.swift; sourceTree = "<group>"; };
+		A4FE681A2BDA1EF9008C27E5 /* AnnotationLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationLayer.swift; sourceTree = "<group>"; };
+		A4FE681B2BDA1EF9008C27E5 /* StringTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTracker.swift; sourceTree = "<group>"; };
+		A4FE681C2BDA1EF9008C27E5 /* ScannerOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerOverlayView.swift; sourceTree = "<group>"; };
+		A4FE681D2BDA1EF9008C27E5 /* String+Classifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Classifications.swift"; sourceTree = "<group>"; };
+		A4FE681E2BDA1EF9008C27E5 /* DeviceFeatures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceFeatures.swift; sourceTree = "<group>"; };
+		A4FE681F2BDA1EF9008C27E5 /* VisionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisionController.swift; sourceTree = "<group>"; };
+		A4FE68202BDA1EF9008C27E5 /* AVCaptureVideoOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVCaptureVideoOrientation.swift; sourceTree = "<group>"; };
+		A4FE68212BDA1EF9008C27E5 /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		A4FE682B2BDA1F36008C27E5 /* CardValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardValidator.swift; sourceTree = "<group>"; };
+		A4FE682C2BDA1F36008C27E5 /* CardGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardGroup.swift; sourceTree = "<group>"; };
+		A4FE682D2BDA1F36008C27E5 /* CardValidationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardValidationType.swift; sourceTree = "<group>"; };
+		A4FE682E2BDA1F36008C27E5 /* CardValidationType+Rules.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CardValidationType+Rules.swift"; sourceTree = "<group>"; };
+		B1E7A12F2BDAD4780009185F /* CardDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDetailsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4FE67F82BDA1EAF008C27E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4C047682BDA84570011E0A0 /* MotionToastView */ = {
+			isa = PBXGroup;
+			children = (
+				A4C047712BDA84930011E0A0 /* Extension.swift */,
+				A4C0476C2BDA84780011E0A0 /* MTPale.swift */,
+				A4C0476A2BDA84780011E0A0 /* MTPale.xib */,
+				A4C047692BDA84780011E0A0 /* MTVibrant.swift */,
+				A4C0476B2BDA84780011E0A0 /* MTVibrant.xib */,
+			);
+			path = MotionToastView;
+			sourceTree = "<group>";
+		};
+		A4FE67F22BDA1EAF008C27E5 = {
+			isa = PBXGroup;
+			children = (
+				A4FE67FD2BDA1EAF008C27E5 /* Scan */,
+				A4FE67FC2BDA1EAF008C27E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4FE67FC2BDA1EAF008C27E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4FE67FB2BDA1EAF008C27E5 /* Scan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4FE67FD2BDA1EAF008C27E5 /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				A4FE67FE2BDA1EAF008C27E5 /* AppDelegate.swift */,
+				A4FE68002BDA1EAF008C27E5 /* SceneDelegate.swift */,
+				A4FE68022BDA1EAF008C27E5 /* ViewController.swift */,
+				A4FE68122BDA1ECB008C27E5 /* CardScanner */,
+				A4FE682A2BDA1F27008C27E5 /* CardValidator */,
+				A4FE68192BDA1EE9008C27E5 /* Common */,
+				A4C047682BDA84570011E0A0 /* MotionToastView */,
+				A4FE68042BDA1EAF008C27E5 /* Main.storyboard */,
+				A4C047752BDA87260011E0A0 /* Assets.xcassets */,
+				A4FE68092BDA1EB0008C27E5 /* LaunchScreen.storyboard */,
+				A4FE680C2BDA1EB0008C27E5 /* Info.plist */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		A4FE68122BDA1ECB008C27E5 /* CardScanner */ = {
+			isa = PBXGroup;
+			children = (
+				A4FE68142BDA1EDC008C27E5 /* CardOverlayView.swift */,
+				A4FE68152BDA1EDC008C27E5 /* CardScannerController.swift */,
+				B1E7A12F2BDAD4780009185F /* CardDetailsViewController.swift */,
+			);
+			path = CardScanner;
+			sourceTree = "<group>";
+		};
+		A4FE68192BDA1EE9008C27E5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A4FE681A2BDA1EF9008C27E5 /* AnnotationLayer.swift */,
+				A4FE68202BDA1EF9008C27E5 /* AVCaptureVideoOrientation.swift */,
+				A4FE681E2BDA1EF9008C27E5 /* DeviceFeatures.swift */,
+				A4FE68212BDA1EF9008C27E5 /* PreviewView.swift */,
+				A4FE681C2BDA1EF9008C27E5 /* ScannerOverlayView.swift */,
+				A4FE681D2BDA1EF9008C27E5 /* String+Classifications.swift */,
+				A4FE681B2BDA1EF9008C27E5 /* StringTracker.swift */,
+				A4FE681F2BDA1EF9008C27E5 /* VisionController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A4FE682A2BDA1F27008C27E5 /* CardValidator */ = {
+			isa = PBXGroup;
+			children = (
+				A4FE682C2BDA1F36008C27E5 /* CardGroup.swift */,
+				A4FE682D2BDA1F36008C27E5 /* CardValidationType.swift */,
+				A4FE682E2BDA1F36008C27E5 /* CardValidationType+Rules.swift */,
+				A4FE682B2BDA1F36008C27E5 /* CardValidator.swift */,
+			);
+			path = CardValidator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4FE67FA2BDA1EAF008C27E5 /* Scan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4FE680F2BDA1EB0008C27E5 /* Build configuration list for PBXNativeTarget "Scan" */;
+			buildPhases = (
+				A4FE67F72BDA1EAF008C27E5 /* Sources */,
+				A4FE67F82BDA1EAF008C27E5 /* Frameworks */,
+				A4FE67F92BDA1EAF008C27E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scan;
+			productName = Scan;
+			productReference = A4FE67FB2BDA1EAF008C27E5 /* Scan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4FE67F32BDA1EAF008C27E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					A4FE67FA2BDA1EAF008C27E5 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = A4FE67F62BDA1EAF008C27E5 /* Build configuration list for PBXProject "Card Scanner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4FE67F22BDA1EAF008C27E5;
+			packageReferences = (
+			);
+			productRefGroup = A4FE67FC2BDA1EAF008C27E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4FE67FA2BDA1EAF008C27E5 /* Scan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4FE67F92BDA1EAF008C27E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C0476F2BDA84780011E0A0 /* MTVibrant.xib in Resources */,
+				A4FE680B2BDA1EB0008C27E5 /* LaunchScreen.storyboard in Resources */,
+				A4C0476E2BDA84780011E0A0 /* MTPale.xib in Resources */,
+				A4C047762BDA87260011E0A0 /* Assets.xcassets in Resources */,
+				A4FE68062BDA1EAF008C27E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4FE67F72BDA1EAF008C27E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C0476D2BDA84780011E0A0 /* MTVibrant.swift in Sources */,
+				A4FE68302BDA1F36008C27E5 /* CardGroup.swift in Sources */,
+				A4FE68312BDA1F36008C27E5 /* CardValidationType.swift in Sources */,
+				A4FE68272BDA1EF9008C27E5 /* VisionController.swift in Sources */,
+				A4FE68282BDA1EF9008C27E5 /* AVCaptureVideoOrientation.swift in Sources */,
+				A4FE68232BDA1EF9008C27E5 /* StringTracker.swift in Sources */,
+				A4FE68262BDA1EF9008C27E5 /* DeviceFeatures.swift in Sources */,
+				B1E7A1302BDAD4780009185F /* CardDetailsViewController.swift in Sources */,
+				A4FE68222BDA1EF9008C27E5 /* AnnotationLayer.swift in Sources */,
+				A4C047722BDA84930011E0A0 /* Extension.swift in Sources */,
+				A4FE68032BDA1EAF008C27E5 /* ViewController.swift in Sources */,
+				A4FE68242BDA1EF9008C27E5 /* ScannerOverlayView.swift in Sources */,
+				A4FE68182BDA1EDC008C27E5 /* CardScannerController.swift in Sources */,
+				A4FE68292BDA1EF9008C27E5 /* PreviewView.swift in Sources */,
+				A4FE68252BDA1EF9008C27E5 /* String+Classifications.swift in Sources */,
+				A4FE67FF2BDA1EAF008C27E5 /* AppDelegate.swift in Sources */,
+				A4FE68172BDA1EDC008C27E5 /* CardOverlayView.swift in Sources */,
+				A4FE68012BDA1EAF008C27E5 /* SceneDelegate.swift in Sources */,
+				A4FE68322BDA1F36008C27E5 /* CardValidationType+Rules.swift in Sources */,
+				A4C047702BDA84780011E0A0 /* MTPale.swift in Sources */,
+				A4FE682F2BDA1F36008C27E5 /* CardValidator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4FE68042BDA1EAF008C27E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4FE68052BDA1EAF008C27E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4FE68092BDA1EB0008C27E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4FE680A2BDA1EB0008C27E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4FE680D2BDA1EB0008C27E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4FE680E2BDA1EB0008C27E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4FE68102BDA1EB0008C27E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WUXT7W78HK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Scan/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera usage description";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CardScan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4FE68112BDA1EB0008C27E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WUXT7W78HK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Scan/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera usage description";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CardScan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4FE67F62BDA1EAF008C27E5 /* Build configuration list for PBXProject "Card Scanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FE680D2BDA1EB0008C27E5 /* Debug */,
+				A4FE680E2BDA1EB0008C27E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4FE680F2BDA1EB0008C27E5 /* Build configuration list for PBXNativeTarget "Scan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FE68102BDA1EB0008C27E5 /* Debug */,
+				A4FE68112BDA1EB0008C27E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4FE67F32BDA1EAF008C27E5 /* Project object */;
+}
